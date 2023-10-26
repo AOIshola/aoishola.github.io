@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AltSchool Form</title>
+    <style>
+        body {
+            font-size: 1.5em;
+        }
+        label{
+            margin: 20px;
+        }
+
+        input {
+            height: 30px;
+            margin: 10px 20px;
+            width: 30%;
+        }
+
+        textarea {
+            margin: 20px;
+        }
+    </style>
+</head>
+<body>
+    <h3></h3>
+    <form action="" method="get">
+        <fieldset>
+            <legend>Fill this form to register to AltSchool</legend>
+            <label for="fname">First Name:</label><br>
+            <input type="text" name="fname" id=""><br>
+            <label for="lname">Last Name:</label><br>
+            <input type="text" name="lname" id=""><br>
+
+            <label for="email">E-mail:</label><br>
+            <input type="email" name="email" id=""><br>
+            <label for="pword">Password:</label><br>
+            <input type="password" name="pword" id=""><br>
+
+            <label for="School">School:</label><br>
+            <select name="School" id="" style="margin: 20px; width: 30%; height: 30px;">
+                <option value="Engr">School of Engineering</option>
+                <option value="Data">School of Data</option>
+                <option value="Product">School of Product</option>
+            </select><br>
+
+            <label for="age">Age:</label><br>
+            <input type="number" name="age" id="" min="14"><br>
+            <label for="location">Location:</label><br>
+            <input type="text" name="location" id=""><br>
+            <br>
+
+            <textarea name="why" id="" cols="30" rows="10" placeholder="Why should you be admitted to AltSchool?"></textarea><br>
+            <input type="button" value="submit" style="width: 10%;">
+        </fieldset>
+    </form>
+</body>
+</html>
